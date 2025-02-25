@@ -25,4 +25,3 @@ equal2:
 
 done:
   nop
-
