@@ -6,6 +6,6 @@ loop:
   add rax, [rdi+rbx*8]
   inc rbx
   cmp rbx, rsi
-  jle loop
+  jne loop
 
 div rbx
