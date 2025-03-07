@@ -4,7 +4,7 @@ cmp rdi, 0
 je rdi_is_zero
 
 loop:
-cmp byte ptr [rdi+rax*1], 0
+cmp byte ptr [rdi+rax], 0
 je done
 inc rax
 jmp loop
